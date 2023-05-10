@@ -189,11 +189,14 @@ form .flex-row{
     margin: 1rem 0 2rem 0;
 }
 footer{
+    position: absolute;
     color: var(--very-dark-violet);
     font-size: .8rem;
     margin-top: 2rem;
     text-align: center;
-    
+    height: 60px;
+    width: 100%;
+    bottom: 0;
 }
 footer a{
     color: var(--very-dark-violet);
